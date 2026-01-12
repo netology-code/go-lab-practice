@@ -1,0 +1,33 @@
+# Бинарные файлы
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Тестовые бинарные файлы
+*.test
+
+# Зависимости
+vendor/
+go.sum
+
+# Операционная система
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Окружение
+.env
+
+# Выходные файлы сборки
+main
+app
